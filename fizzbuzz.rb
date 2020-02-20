@@ -3,11 +3,12 @@
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
     "Fizz"
-
-  elseif int % 3 == 2 # if the number int is divisible by 3
-      "Buzz"
+  if int % 5 == 0 
+    "FizzBuzz"
+  end
   else # if the number int is divisible by 3
-        "FizzBuzz"
+    if int % 5 == 0 # if the number int is divisible by 3
+        "Buzz"  
   end
 end
 
