@@ -11,5 +11,7 @@ def fizzbuzz(int)
     return    "Buzz"
 elseif (int % 5 == && int %3==0)
   return  "FizzBuzz"
+else
+  return nil
 end
    end
