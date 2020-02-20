@@ -2,15 +2,15 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz" 
-  
+    "Fizz"
+
   elseif int % 3 == 2 # if the number int is divisible by 3
-      "Buzz" 
+      "Buzz"
   else # if the number int is divisible by 3
-        "FizzBuzz" 
+        "FizzBuzz"
   end
 end
- 
+
 fizzbuzz(3) # => You should see a return of "Fizz"
 fizzbuzz(5) # => You should see a return of nil
 fizzbuzz() 
