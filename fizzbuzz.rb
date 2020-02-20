@@ -3,10 +3,13 @@
 require 'pry'
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
+  return
+
     "Fizz"
-   end
+
  elseif int % 5 == 0 # if the number int is divisible by 3
-        "Buzz"
-  elseif (int % 5 == && int %3==0)
-    "FizzBuzz"
+    return    "Buzz"
+elseif (int % 5 == && int %3==0)
+  return  "FizzBuzz"
 end
+   end
